@@ -94,20 +94,6 @@
   <img src="assets/workflow-dark.svg" width="100%" alt="Six-stage development workflow from discovery to support" />
 </picture>
 
-<br />
-
-
-<!-- GitHub Stats -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ntor-TJ&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ntor-TJ&show_icons=true&theme=default&hide_border=true&bg_color=00000000" />
-    <img src="https://github-readme-stats.vercel.app/api?username=ntor-TJ&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000" alt="GitHub stats" />
-  </picture>
-</p>
-
-<br />
-
 ---
 
 <p align="center">

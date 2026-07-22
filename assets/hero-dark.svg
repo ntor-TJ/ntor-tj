@@ -1,0 +1,251 @@
+<svg viewBox="0 0 1600 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="40%" stop-color="#0C1222"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+
+    <radialGradient id="glowBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowViolet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#DBEAFE"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <linearGradient id="cardStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.15"/>
+    </linearGradient>
+
+    <linearGradient id="cardFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" stop-opacity="0.80"/>
+      <stop offset="100%" stop-color="#0C1222" stop-opacity="0.65"/>
+    </linearGradient>
+
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.15"/>
+    </linearGradient>
+
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#3B82F6" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#8B5CF6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#1E293B" stroke-width="0.4" opacity="0.25"/>
+    </pattern>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="520" fill="url(#bgGrad)"/>
+  <rect width="1600" height="520" fill="url(#grid)"/>
+
+  <!-- Ambient glows -->
+  <circle cx="300" cy="200" r="300" fill="url(#glowBlue)"/>
+  <circle cx="1300" cy="150" r="280" fill="url(#glowViolet)"/>
+  <circle cx="800" cy="450" r="250" fill="url(#glowCyan)"/>
+
+  <!-- Constellation pattern — subtle connecting lines -->
+  <g stroke="#3B82F6" stroke-width="0.5" opacity="0.15">
+    <line x1="100" y1="80" x2="250" y2="50"/>
+    <line x1="250" y1="50" x2="380" y2="95"/>
+    <line x1="380" y1="95" x2="500" y2="40"/>
+    <line x1="1100" y1="60" x2="1250" y2="90"/>
+    <line x1="1250" y1="90" x2="1400" y2="55"/>
+    <line x1="1400" y1="55" x2="1520" y2="100"/>
+    <line x1="250" y1="50" x2="200" y2="140"/>
+    <line x1="1250" y1="90" x2="1300" y2="170"/>
+  </g>
+
+  <!-- Constellation nodes -->
+  <g fill="#38BDF8" opacity="0.6">
+    <circle cx="100" cy="80" r="2">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="250" cy="50" r="2.5">
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="380" cy="95" r="1.8">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="40" r="2">
+      <animate attributeName="opacity" values="0.6;0.1;0.6" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g fill="#8B5CF6" opacity="0.6">
+    <circle cx="1100" cy="60" r="2.2">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1250" cy="90" r="2">
+      <animate attributeName="opacity" values="0.7;0.15;0.7" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1400" cy="55" r="2.5">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1520" cy="100" r="1.8">
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Floating particles with drift -->
+  <g>
+    <circle cx="60" cy="260" r="1.5" fill="#38BDF8" opacity="0.5">
+      <animate attributeName="cy" values="260;245;260" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1540" cy="320" r="1.8" fill="#8B5CF6" opacity="0.4">
+      <animate attributeName="cy" values="320;305;320" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="30" r="1.5" fill="#06B6D4" opacity="0.5">
+      <animate attributeName="cy" values="30;18;30" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Glass identity card -->
+  <g>
+    <!-- Card shadow -->
+    <rect x="73" y="73" width="680" height="340" rx="24" fill="#000" opacity="0.3"/>
+    <!-- Card background -->
+    <rect x="68" y="68" width="680" height="340" rx="24" fill="url(#cardFill)"/>
+    <!-- Card border -->
+    <rect x="68" y="68" width="680" height="340" rx="24" fill="none" stroke="url(#cardStroke)" stroke-width="1.2"/>
+    <!-- Top accent line -->
+    <rect x="68" y="68" width="680" height="1.5" rx="1" fill="url(#accentLine)"/>
+
+    <!-- Greeting text -->
+    <text x="104" y="118" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" letter-spacing="3" fill="#38BDF8" opacity="0.9">
+      HELLO, I'M
+      <animate attributeName="opacity" values="0;0.9;0.9" dur="1.5s" fill="freeze"/>
+    </text>
+
+    <!-- Name -->
+    <text x="102" y="192" font-family="'Space Grotesk', Inter, sans-serif" font-size="68" font-weight="700" fill="url(#nameGrad)">Janardhan</text>
+
+    <!-- Role -->
+    <text x="104" y="235" font-family="Inter, 'Segoe UI', sans-serif" font-size="20" fill="#94A3B8">HRBP &amp; People Analytics · HR-Tech Builder</text>
+
+    <!-- Crossfading taglines -->
+    <g font-family="Inter, 'Segoe UI', sans-serif" font-size="16" fill="#CBD5E1">
+      <text x="104" y="280" opacity="0">
+        ⚡ HRMS, payroll, attendance &amp; L&amp;D systems
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.30;0.35;1" dur="9s" repeatCount="indefinite"/>
+      </text>
+      <text x="104" y="280" opacity="0">
+        📊 Workforce planning, backed by real data
+        <animate attributeName="opacity" values="0;0;0;1;1;0;0" keyTimes="0;0.33;0.35;0.38;0.63;0.68;1" dur="9s" repeatCount="indefinite"/>
+      </text>
+      <text x="104" y="280" opacity="0">
+        🛠 PHP · Python · TypeScript · BI dashboards
+        <animate attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;0.66;0.70;0.73;0.98;1" dur="9s" repeatCount="indefinite"/>
+      </text>
+      <!-- Cursor blink -->
+      <rect x="460" y="266" width="2" height="18" fill="#38BDF8">
+        <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Venture badge -->
+    <g>
+      <rect x="104" y="310" width="290" height="38" rx="19" fill="#020617" stroke="#8B5CF6" stroke-opacity="0.45"/>
+      <circle cx="128" cy="329" r="5" fill="#8B5CF6">
+        <animate attributeName="r" values="5;6;5" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="142" y="334" font-family="Inter, 'Segoe UI', sans-serif" font-size="13" fill="#CBD5E1">Building ventures under Spiedee Insight Tech</text>
+    </g>
+
+    <!-- Status indicator -->
+    <g>
+      <circle cx="424" y="329" cx="424" cy="329" r="4" fill="#22C55E" opacity="0">
+        <animate attributeName="opacity" values="0;0;0" dur="1s" fill="freeze"/>
+      </circle>
+    </g>
+  </g>
+
+  <!-- Floating tech chips with connections -->
+  <g font-family="Inter, 'Segoe UI', sans-serif" font-size="13" font-weight="600">
+    <!-- PHP -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-12;0,0" dur="4.5s" repeatCount="indefinite"/>
+      <rect x="880" y="120" width="90" height="38" rx="12" fill="#0F172A" opacity="0.85" stroke="#3B82F6" stroke-opacity="0.45"/>
+      <text x="904" y="144" fill="#93C5FD">PHP</text>
+    </g>
+    <!-- TypeScript -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,14;0,0" dur="5.2s" repeatCount="indefinite"/>
+      <rect x="1020" y="185" width="126" height="38" rx="12" fill="#0F172A" opacity="0.85" stroke="#8B5CF6" stroke-opacity="0.45"/>
+      <text x="1042" y="209" fill="#C4B5FD">TypeScript</text>
+    </g>
+    <!-- Python -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-10;0,0" dur="3.8s" repeatCount="indefinite"/>
+      <rect x="1200" y="115" width="100" height="38" rx="12" fill="#0F172A" opacity="0.85" stroke="#06B6D4" stroke-opacity="0.45"/>
+      <text x="1222" y="139" fill="#67E8F9">Python</text>
+    </g>
+    <!-- BI -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,11;0,0" dur="4.9s" repeatCount="indefinite"/>
+      <rect x="1360" y="190" width="80" height="38" rx="12" fill="#0F172A" opacity="0.85" stroke="#38BDF8" stroke-opacity="0.45"/>
+      <text x="1384" y="214" fill="#7DD3FC">BI</text>
+    </g>
+    <!-- FastAPI -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-13;0,0" dur="5.6s" repeatCount="indefinite"/>
+      <rect x="990" y="275" width="108" height="38" rx="12" fill="#0F172A" opacity="0.85" stroke="#3B82F6" stroke-opacity="0.45"/>
+      <text x="1012" y="299" fill="#93C5FD">FastAPI</text>
+    </g>
+    <!-- PostgreSQL -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,10;0,0" dur="4.2s" repeatCount="indefinite"/>
+      <rect x="1160" y="305" width="140" height="38" rx="12" fill="#0F172A" opacity="0.85" stroke="#8B5CF6" stroke-opacity="0.45"/>
+      <text x="1184" y="329" fill="#C4B5FD">PostgreSQL</text>
+    </g>
+    <!-- Next.js -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-8;0,0" dur="5s" repeatCount="indefinite"/>
+      <rect x="1350" y="280" width="105" height="38" rx="12" fill="#0F172A" opacity="0.85" stroke="#06B6D4" stroke-opacity="0.45"/>
+      <text x="1372" y="304" fill="#67E8F9">Next.js</text>
+    </g>
+  </g>
+
+  <!-- Connection lines between tech chips -->
+  <g stroke="#3B82F6" stroke-width="0.6" opacity="0.15" stroke-dasharray="4,4">
+    <line x1="925" y1="139" x2="1073" y2="204"/>
+    <line x1="1073" y1="204" x2="1245" y2="134"/>
+    <line x1="1245" y1="134" x2="1400" y2="209"/>
+    <line x1="1073" y1="204" x2="1044" y2="294"/>
+    <line x1="1044" y1="294" x2="1225" y2="324"/>
+    <line x1="1225" y1="324" x2="1395" y2="299"/>
+    <animate attributeName="stroke-dashoffset" values="0;-8" dur="2s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Bottom wave divider -->
+  <path d="M0,480 C200,450 400,500 600,470 C800,440 1000,500 1200,460 C1400,420 1500,480 1600,470 L1600,520 L0,520 Z" fill="url(#waveGrad)"/>
+  <path d="M0,490 C200,460 400,510 600,480 C800,450 1000,510 1200,470 C1400,430 1500,490 1600,480 L1600,520 L0,520 Z" fill="#020617" opacity="0.5"/>
+
+  <!-- Bottom accent line -->
+  <line x1="0" y1="518" x2="1600" y2="518" stroke="url(#accentLine)" stroke-width="2"/>
+</svg>

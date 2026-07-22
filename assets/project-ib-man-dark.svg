@@ -1,0 +1,97 @@
+<svg viewBox="0 0 1600 640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pcBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <pattern id="pcGrid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0 L0 0 0 44" fill="none" stroke="#1E293B" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+    <linearGradient id="chartGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="640" fill="url(#pcBg)"/>
+  <rect width="1600" height="640" fill="url(#pcGrid)"/>
+
+  <!-- Browser mockup -->
+  <rect x="60" y="100" width="860" height="470" rx="16" fill="#0B1220" stroke="#1E293B"/>
+  <rect x="60" y="100" width="860" height="44" rx="16" fill="#0F172A"/>
+  <rect x="60" y="128" width="860" height="16" fill="#0F172A"/>
+  <circle cx="86" cy="122" r="6" fill="#EF4444" opacity="0.7"/>
+  <circle cx="108" cy="122" r="6" fill="#F59E0B" opacity="0.7"/>
+  <circle cx="130" cy="122" r="6" fill="#22C55E" opacity="0.7"/>
+  <rect x="152" y="111" width="260" height="22" rx="11" fill="#1E293B"/>
+  <text x="164" y="126" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#64748B">localhost:3000/mentor</text>
+
+  <!-- Sidebar -->
+  <rect x="78" y="166" width="170" height="32" rx="8" fill="#1E293B"/>
+  <text x="92" y="187" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#E2E8F0">Mentor</text>
+  <text x="92" y="227" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#64748B">Portfolio</text>
+  <text x="92" y="267" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#64748B">Watchlist</text>
+  <text x="92" y="307" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#64748B">Journal</text>
+  <text x="92" y="347" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#64748B">Rules</text>
+
+  <!-- Stat cards -->
+  <rect x="264" y="158" width="203" height="84" rx="12" fill="#0F172A" stroke="#8B5CF6" stroke-opacity="0.3"/>
+  <text x="280" y="194" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" fill="#C4B5FD">No Trade</text>
+  <text x="280" y="218" font-family="Inter, sans-serif" font-size="10.5" fill="#64748B">Default when data is stale</text>
+  <rect x="481" y="158" width="203" height="84" rx="12" fill="#0F172A" stroke="#8B5CF6" stroke-opacity="0.3"/>
+  <text x="497" y="194" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700" fill="#C4B5FD">15 min</text>
+  <text x="497" y="218" font-family="Inter, sans-serif" font-size="10.5" fill="#64748B">Data delay (Yahoo Finance)</text>
+  <rect x="699" y="158" width="203" height="84" rx="12" fill="#0F172A" stroke="#8B5CF6" stroke-opacity="0.3"/>
+  <text x="715" y="194" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700" fill="#C4B5FD">3</text>
+  <text x="715" y="218" font-family="Inter, sans-serif" font-size="10.5" fill="#64748B">Forensic accounting scores</text>
+
+  <!-- Area chart -->
+  <rect x="264" y="258" width="638" height="294" rx="12" fill="#0F172A" stroke="#1E293B"/>
+  <path d="M280,310 L320,330 L370,500 L420,490 L470,360 L520,390 L570,410 L620,460 L670,400 L720,380 L770,395 L820,470 L870,310 L880,552 L280,552 Z" fill="url(#chartGrad)"/>
+  <path d="M280,310 L320,330 L370,500 L420,490 L470,360 L520,390 L570,410 L620,460 L670,400 L720,380 L770,395 L820,470 L870,310" fill="none" stroke="#8B5CF6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#8B5CF6">
+    <circle cx="280" cy="310" r="3" opacity="0.7"/>
+    <circle cx="370" cy="500" r="3" opacity="0.7"/>
+    <circle cx="470" cy="360" r="3" opacity="0.7"/>
+    <circle cx="570" cy="410" r="3" opacity="0.7"/>
+    <circle cx="670" cy="400" r="3" opacity="0.7"/>
+    <circle cx="770" cy="395" r="3" opacity="0.7"/>
+    <circle cx="870" cy="310" r="3" opacity="0.7"/>
+  </g>
+
+  <!-- Right side -->
+  <text x="980" y="118" font-family="Inter, sans-serif" font-size="12" letter-spacing="2.5" fill="#C4B5FD">TRADING AND RESEARCH</text>
+  <text x="980" y="162" font-family="'Space Grotesk', Inter, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">IB-Man</text>
+  <text x="1107" y="162" font-family="'Space Grotesk', Inter, sans-serif" font-size="32" font-weight="400" fill="#64748B"> — Trading Control Room</text>
+
+  <text font-family="Inter, sans-serif" font-size="14.5" fill="#94A3B8">
+    <tspan x="980" y="200">A private research analyst for Indian equities:</tspan>
+    <tspan x="980" y="224">deep diligence scoring, risk gating, and a</tspan>
+    <tspan x="980" y="248">plain-English when / where / why briefing.</tspan>
+  </text>
+
+  <g font-family="Inter, sans-serif" font-size="13" fill="#CBD5E1">
+    <circle cx="984" cy="285" r="3.5" fill="#8B5CF6"/>
+    <text x="998" y="290">Piotroski, Altman and Beneish scores on real filings</text>
+    <circle cx="984" cy="315" r="3.5" fill="#8B5CF6"/>
+    <text x="998" y="320">Risk Guardian blocks weak trades before they reach the UI</text>
+    <circle cx="984" cy="345" r="3.5" fill="#8B5CF6"/>
+    <text x="998" y="350">DCF, relative and analyst-blended valuation in one score</text>
+  </g>
+
+  <g font-family="Inter, sans-serif" font-size="11" font-weight="600">
+    <rect x="980" y="390" width="78" height="28" rx="14" fill="#020617" stroke="#8B5CF6" stroke-opacity="0.4"/>
+    <text x="1019" y="408" text-anchor="middle" fill="#C4B5FD">Next.js</text>
+    <rect x="1066" y="390" width="78" height="28" rx="14" fill="#020617" stroke="#8B5CF6" stroke-opacity="0.4"/>
+    <text x="1105" y="408" text-anchor="middle" fill="#C4B5FD">FastAPI</text>
+    <rect x="1152" y="390" width="100" height="28" rx="14" fill="#020617" stroke="#8B5CF6" stroke-opacity="0.4"/>
+    <text x="1202" y="408" text-anchor="middle" fill="#C4B5FD">PostgreSQL</text>
+  </g>
+
+  <g font-family="Inter, sans-serif" font-size="13" font-weight="600">
+    <rect x="980" y="440" width="175" height="44" rx="12" fill="#8B5CF6"/>
+    <text x="1068" y="467" text-anchor="middle" fill="#FFFFFF">View repository →</text>
+    <rect x="1167" y="440" width="145" height="44" rx="12" fill="none" stroke="#8B5CF6" stroke-opacity="0.5"/>
+    <text x="1240" y="467" text-anchor="middle" fill="#C4B5FD">Read the docs</text>
+  </g>
+</svg>

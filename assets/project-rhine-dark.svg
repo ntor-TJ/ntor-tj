@@ -1,0 +1,118 @@
+<svg viewBox="0 0 1600 640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pcBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <pattern id="pcGrid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0 L0 0 0 44" fill="none" stroke="#1E293B" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+    <linearGradient id="chartGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="shineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#FFFFFF" stop-opacity="0.03"/>
+      <stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="640" fill="url(#pcBg)"/>
+  <rect width="1600" height="640" fill="url(#pcGrid)"/>
+
+  <!-- Browser mockup -->
+  <rect x="60" y="100" width="860" height="470" rx="16" fill="#0B1220" stroke="#1E293B"/>
+  <!-- Titlebar -->
+  <rect x="60" y="100" width="860" height="44" rx="16" fill="#0F172A"/>
+  <rect x="60" y="128" width="860" height="16" fill="#0F172A"/>
+  <!-- Traffic lights -->
+  <circle cx="86" cy="122" r="6" fill="#EF4444" opacity="0.7"/>
+  <circle cx="108" cy="122" r="6" fill="#F59E0B" opacity="0.7"/>
+  <circle cx="130" cy="122" r="6" fill="#22C55E" opacity="0.7"/>
+  <!-- URL bar -->
+  <rect x="152" y="111" width="260" height="22" rx="11" fill="#1E293B"/>
+  <text x="164" y="126" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#64748B">app.rhine.io/admin/dashboard</text>
+
+  <!-- Sidebar -->
+  <rect x="78" y="166" width="170" height="32" rx="8" fill="#1E293B"/>
+  <text x="92" y="187" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#E2E8F0">Dashboard</text>
+  <text x="92" y="227" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#64748B">Timesheets</text>
+  <text x="92" y="267" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#64748B">Tasks</text>
+  <text x="92" y="307" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#64748B">Reports</text>
+  <text x="92" y="347" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#64748B">Settings</text>
+
+  <!-- Stat cards -->
+  <rect x="264" y="158" width="203" height="84" rx="12" fill="#0F172A" stroke="#3B82F6" stroke-opacity="0.3"/>
+  <text x="280" y="194" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700" fill="#93C5FD">60</text>
+  <text x="280" y="218" font-family="Inter, sans-serif" font-size="10.5" fill="#64748B">Seeded employees</text>
+
+  <rect x="481" y="158" width="203" height="84" rx="12" fill="#0F172A" stroke="#3B82F6" stroke-opacity="0.3"/>
+  <text x="497" y="194" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700" fill="#93C5FD">15 min</text>
+  <text x="497" y="218" font-family="Inter, sans-serif" font-size="10.5" fill="#64748B">Idle auto-logout</text>
+
+  <rect x="699" y="158" width="203" height="84" rx="12" fill="#0F172A" stroke="#3B82F6" stroke-opacity="0.3"/>
+  <text x="715" y="194" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700" fill="#93C5FD">0</text>
+  <text x="715" y="218" font-family="Inter, sans-serif" font-size="10.5" fill="#64748B">SQL injection paths</text>
+
+  <!-- Area chart -->
+  <rect x="264" y="258" width="638" height="294" rx="12" fill="#0F172A" stroke="#1E293B"/>
+  <path d="M280,520 L320,460 L370,480 L420,400 L470,430 L520,380 L570,420 L620,370 L670,350 L720,390 L770,330 L820,360 L870,310 L880,552 L280,552 Z" fill="url(#chartGrad)"/>
+  <path d="M280,520 L320,460 L370,480 L420,400 L470,430 L520,380 L570,420 L620,370 L670,350 L720,390 L770,330 L820,360 L870,310" fill="none" stroke="#3B82F6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Data points -->
+  <g fill="#3B82F6">
+    <circle cx="280" cy="520" r="3" opacity="0.7"/>
+    <circle cx="370" cy="480" r="3" opacity="0.7"/>
+    <circle cx="470" cy="430" r="3" opacity="0.7"/>
+    <circle cx="570" cy="420" r="3" opacity="0.7"/>
+    <circle cx="670" cy="350" r="3" opacity="0.7"/>
+    <circle cx="770" cy="330" r="3" opacity="0.7"/>
+    <circle cx="870" cy="310" r="3" opacity="0.7"/>
+  </g>
+
+  <!-- Shine sweep -->
+  <rect x="60" y="100" width="860" height="470" rx="16" fill="url(#shineGrad)">
+    <animate attributeName="x" values="-860;1720" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Right side: Project info -->
+  <text x="980" y="118" font-family="Inter, sans-serif" font-size="12" letter-spacing="2.5" fill="#93C5FD">HR &amp; WORKFORCE SYSTEMS</text>
+
+  <text x="980" y="162" font-family="'Space Grotesk', Inter, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">Rhine</text>
+  <text x="1087" y="162" font-family="'Space Grotesk', Inter, sans-serif" font-size="32" font-weight="400" fill="#64748B"> — Attendance Tracker</text>
+
+  <text font-family="Inter, sans-serif" font-size="14.5" fill="#94A3B8" line-height="1.6">
+    <tspan x="980" y="200">A role-based attendance platform built for</tspan>
+    <tspan x="980" y="224">shared hosting: timesheets, task tracking,</tspan>
+    <tspan x="980" y="248">and one-click CSV reporting.</tspan>
+  </text>
+
+  <!-- Feature bullets -->
+  <g font-family="Inter, sans-serif" font-size="13" fill="#CBD5E1">
+    <circle cx="984" cy="285" r="3.5" fill="#3B82F6"/>
+    <text x="998" y="290">Completing a task auto-generates its timesheet entry</text>
+    <circle cx="984" cy="315" r="3.5" fill="#3B82F6"/>
+    <text x="998" y="320">PDO-prepared queries, CSRF and session hardening</text>
+    <circle cx="984" cy="345" r="3.5" fill="#3B82F6"/>
+    <text x="998" y="350">CSV or Excel export filtered by employee, date, or status</text>
+  </g>
+
+  <!-- Tech pills -->
+  <g font-family="Inter, sans-serif" font-size="11" font-weight="600">
+    <rect x="980" y="390" width="52" height="28" rx="14" fill="#020617" stroke="#3B82F6" stroke-opacity="0.4"/>
+    <text x="1006" y="408" text-anchor="middle" fill="#93C5FD">PHP</text>
+    <rect x="1040" y="390" width="68" height="28" rx="14" fill="#020617" stroke="#3B82F6" stroke-opacity="0.4"/>
+    <text x="1074" y="408" text-anchor="middle" fill="#93C5FD">MySQL</text>
+    <rect x="1116" y="390" width="108" height="28" rx="14" fill="#020617" stroke="#3B82F6" stroke-opacity="0.4"/>
+    <text x="1170" y="408" text-anchor="middle" fill="#93C5FD">Bootstrap 5</text>
+  </g>
+
+  <!-- CTA Buttons -->
+  <g font-family="Inter, sans-serif" font-size="13" font-weight="600">
+    <rect x="980" y="440" width="175" height="44" rx="12" fill="#3B82F6"/>
+    <text x="1068" y="467" text-anchor="middle" fill="#FFFFFF">View repository →</text>
+    <rect x="1167" y="440" width="145" height="44" rx="12" fill="none" stroke="#3B82F6" stroke-opacity="0.5"/>
+    <text x="1240" y="467" text-anchor="middle" fill="#93C5FD">Read the docs</text>
+  </g>
+</svg>

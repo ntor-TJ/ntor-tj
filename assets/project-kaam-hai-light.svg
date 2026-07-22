@@ -1,0 +1,89 @@
+<svg viewBox="0 0 1600 640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pcBgL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <pattern id="pcGridL" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0 L0 0 0 44" fill="none" stroke="#E2E8F0" stroke-width="0.4" opacity="0.3"/>
+    </pattern>
+    <linearGradient id="chartGradL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.01"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="640" fill="url(#pcBgL)"/>
+  <rect width="1600" height="640" fill="url(#pcGridL)"/>
+
+  <rect x="60" y="100" width="860" height="470" rx="16" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="60" y="100" width="860" height="44" rx="16" fill="#F8FAFC"/>
+  <rect x="60" y="128" width="860" height="16" fill="#F8FAFC"/>
+  <circle cx="86" cy="122" r="6" fill="#EF4444" opacity="0.6"/>
+  <circle cx="108" cy="122" r="6" fill="#F59E0B" opacity="0.6"/>
+  <circle cx="130" cy="122" r="6" fill="#22C55E" opacity="0.6"/>
+  <rect x="152" y="111" width="260" height="22" rx="11" fill="#F1F5F9"/>
+  <text x="164" y="126" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#94A3B8">admin.kaamhai.in/ops</text>
+
+  <rect x="78" y="166" width="170" height="32" rx="8" fill="#F1F5F9"/>
+  <text x="92" y="187" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#0F172A">Jobs</text>
+  <text x="92" y="227" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#94A3B8">Workers</text>
+  <text x="92" y="267" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#94A3B8">Attendance</text>
+  <text x="92" y="307" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#94A3B8">Payouts</text>
+  <text x="92" y="347" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#94A3B8">Admin</text>
+
+  <rect x="264" y="158" width="203" height="84" rx="12" fill="#FFFFFF" stroke="#06B6D4" stroke-opacity="0.2"/>
+  <text x="280" y="194" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700" fill="#0891B2">74</text>
+  <text x="280" y="218" font-family="Inter, sans-serif" font-size="10.5" fill="#94A3B8">API endpoints</text>
+  <rect x="481" y="158" width="203" height="84" rx="12" fill="#FFFFFF" stroke="#06B6D4" stroke-opacity="0.2"/>
+  <text x="497" y="194" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700" fill="#0891B2">~90</text>
+  <text x="497" y="218" font-family="Inter, sans-serif" font-size="10.5" fill="#94A3B8">Automated e2e checks</text>
+  <rect x="699" y="158" width="203" height="84" rx="12" fill="#FFFFFF" stroke="#06B6D4" stroke-opacity="0.2"/>
+  <text x="715" y="194" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700" fill="#0891B2">S1–S10</text>
+  <text x="715" y="218" font-family="Inter, sans-serif" font-size="10.5" fill="#94A3B8">Sprints shipped</text>
+
+  <rect x="264" y="258" width="638" height="294" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <path d="M280,480 L320,420 L370,450 L420,380 L470,370 L520,500 L570,510 L620,340 L670,460 L720,465 L770,300 L820,430 L870,400 L880,552 L280,552 Z" fill="url(#chartGradL)"/>
+  <path d="M280,480 L320,420 L370,450 L420,380 L470,370 L520,500 L570,510 L620,340 L670,460 L720,465 L770,300 L820,430 L870,400" fill="none" stroke="#06B6D4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#06B6D4">
+    <circle cx="280" cy="480" r="3" opacity="0.5"/><circle cx="370" cy="450" r="3" opacity="0.5"/>
+    <circle cx="470" cy="370" r="3" opacity="0.5"/><circle cx="570" cy="510" r="3" opacity="0.5"/>
+    <circle cx="670" cy="460" r="3" opacity="0.5"/><circle cx="770" cy="300" r="3" opacity="0.5"/>
+    <circle cx="870" cy="400" r="3" opacity="0.5"/>
+  </g>
+
+  <text x="980" y="118" font-family="Inter, sans-serif" font-size="12" letter-spacing="2.5" fill="#0891B2" opacity="0.8">CONSTRUCTION WORKFORCE</text>
+  <text x="980" y="162" font-family="'Space Grotesk', Inter, sans-serif" font-size="32" font-weight="700" fill="#0F172A">Kaam Hai</text>
+  <text x="1165" y="162" font-family="'Space Grotesk', Inter, sans-serif" font-size="32" font-weight="400" fill="#94A3B8"> — Worker Marketplace</text>
+
+  <text font-family="Inter, sans-serif" font-size="14.5" fill="#64748B">
+    <tspan x="980" y="200">Connecting Hyderabad's construction workforce:</tspan>
+    <tspan x="980" y="224">verified day-rate hiring, geofenced attendance,</tspan>
+    <tspan x="980" y="248">and UPI payouts in one mobile app.</tspan>
+  </text>
+
+  <g font-family="Inter, sans-serif" font-size="13" fill="#475569">
+    <circle cx="984" cy="285" r="3.5" fill="#06B6D4"/>
+    <text x="998" y="290">Contract-first API: one OpenAPI spec drives mobile and admin</text>
+    <circle cx="984" cy="315" r="3.5" fill="#06B6D4"/>
+    <text x="998" y="320">Geofenced check-in with a configurable radius</text>
+    <circle cx="984" cy="345" r="3.5" fill="#06B6D4"/>
+    <text x="998" y="350">UPI payouts via RazorpayX, with DPDP-compliant Aadhaar masking</text>
+  </g>
+
+  <g font-family="Inter, sans-serif" font-size="11" font-weight="600">
+    <rect x="980" y="390" width="115" height="28" rx="14" fill="#ECFEFF" stroke="#06B6D4" stroke-opacity="0.25"/>
+    <text x="1038" y="408" text-anchor="middle" fill="#0891B2">React Native</text>
+    <rect x="1103" y="390" width="78" height="28" rx="14" fill="#ECFEFF" stroke="#06B6D4" stroke-opacity="0.25"/>
+    <text x="1142" y="408" text-anchor="middle" fill="#0891B2">Express</text>
+    <rect x="1189" y="390" width="100" height="28" rx="14" fill="#ECFEFF" stroke="#06B6D4" stroke-opacity="0.25"/>
+    <text x="1239" y="408" text-anchor="middle" fill="#0891B2">PostgreSQL</text>
+  </g>
+
+  <g font-family="Inter, sans-serif" font-size="13" font-weight="600">
+    <rect x="980" y="440" width="175" height="44" rx="12" fill="#06B6D4"/>
+    <text x="1068" y="467" text-anchor="middle" fill="#FFFFFF">View repository →</text>
+    <rect x="1167" y="440" width="145" height="44" rx="12" fill="none" stroke="#06B6D4" stroke-opacity="0.35"/>
+    <text x="1240" y="467" text-anchor="middle" fill="#0891B2">Read the docs</text>
+  </g>
+</svg>

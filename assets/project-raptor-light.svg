@@ -1,0 +1,89 @@
+<svg viewBox="0 0 1600 640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pcBgL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <pattern id="pcGridL" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0 L0 0 0 44" fill="none" stroke="#E2E8F0" stroke-width="0.4" opacity="0.3"/>
+    </pattern>
+    <linearGradient id="chartGradL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.01"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="640" fill="url(#pcBgL)"/>
+  <rect width="1600" height="640" fill="url(#pcGridL)"/>
+
+  <rect x="60" y="100" width="860" height="470" rx="16" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="60" y="100" width="860" height="44" rx="16" fill="#F8FAFC"/>
+  <rect x="60" y="128" width="860" height="16" fill="#F8FAFC"/>
+  <circle cx="86" cy="122" r="6" fill="#EF4444" opacity="0.6"/>
+  <circle cx="108" cy="122" r="6" fill="#F59E0B" opacity="0.6"/>
+  <circle cx="130" cy="122" r="6" fill="#22C55E" opacity="0.6"/>
+  <rect x="152" y="111" width="260" height="22" rx="11" fill="#F1F5F9"/>
+  <text x="164" y="126" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#94A3B8">raptor.crm/dashboard</text>
+
+  <rect x="78" y="166" width="170" height="32" rx="8" fill="#F1F5F9"/>
+  <text x="92" y="187" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#0F172A">Dashboard</text>
+  <text x="92" y="227" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#94A3B8">Leads</text>
+  <text x="92" y="267" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#94A3B8">Tasks</text>
+  <text x="92" y="307" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#94A3B8">Targets</text>
+  <text x="92" y="347" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#94A3B8">Reports</text>
+
+  <rect x="264" y="158" width="203" height="84" rx="12" fill="#FFFFFF" stroke="#3B82F6" stroke-opacity="0.2"/>
+  <text x="280" y="194" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700" fill="#2563EB">7</text>
+  <text x="280" y="218" font-family="Inter, sans-serif" font-size="10.5" fill="#94A3B8">User roles</text>
+  <rect x="481" y="158" width="203" height="84" rx="12" fill="#FFFFFF" stroke="#3B82F6" stroke-opacity="0.2"/>
+  <text x="497" y="194" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700" fill="#2563EB">90</text>
+  <text x="497" y="218" font-family="Inter, sans-serif" font-size="10.5" fill="#94A3B8">Demo employees seeded</text>
+  <rect x="699" y="158" width="203" height="84" rx="12" fill="#FFFFFF" stroke="#3B82F6" stroke-opacity="0.2"/>
+  <text x="715" y="194" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700" fill="#2563EB">0</text>
+  <text x="715" y="218" font-family="Inter, sans-serif" font-size="10.5" fill="#94A3B8">DELETE statements in app</text>
+
+  <rect x="264" y="258" width="638" height="294" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <path d="M280,470 L320,500 L370,440 L420,490 L470,510 L520,430 L570,320 L620,350 L670,360 L720,480 L770,410 L820,460 L870,450 L880,552 L280,552 Z" fill="url(#chartGradL)"/>
+  <path d="M280,470 L320,500 L370,440 L420,490 L470,510 L520,430 L570,320 L620,350 L670,360 L720,480 L770,410 L820,460 L870,450" fill="none" stroke="#3B82F6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#3B82F6">
+    <circle cx="280" cy="470" r="3" opacity="0.5"/><circle cx="370" cy="440" r="3" opacity="0.5"/>
+    <circle cx="470" cy="510" r="3" opacity="0.5"/><circle cx="570" cy="320" r="3" opacity="0.5"/>
+    <circle cx="670" cy="360" r="3" opacity="0.5"/><circle cx="770" cy="410" r="3" opacity="0.5"/>
+    <circle cx="870" cy="450" r="3" opacity="0.5"/>
+  </g>
+
+  <text x="980" y="118" font-family="Inter, sans-serif" font-size="12" letter-spacing="2.5" fill="#2563EB" opacity="0.8">SALES AND FIELD CRM</text>
+  <text x="980" y="162" font-family="'Space Grotesk', Inter, sans-serif" font-size="32" font-weight="700" fill="#0F172A">Raptor</text>
+  <text x="1105" y="162" font-family="'Space Grotesk', Inter, sans-serif" font-size="32" font-weight="400" fill="#94A3B8"> — Sales Monitoring CRM</text>
+
+  <text font-family="Inter, sans-serif" font-size="14.5" fill="#64748B">
+    <tspan x="980" y="200">A field sales CRM for managers and reps:</tspan>
+    <tspan x="980" y="224">attendance, leads, targets and dashboards,</tspan>
+    <tspan x="980" y="248">with a no-delete governance policy.</tspan>
+  </text>
+
+  <g font-family="Inter, sans-serif" font-size="13" fill="#475569">
+    <circle cx="984" cy="285" r="3.5" fill="#3B82F6"/>
+    <text x="998" y="290">Geofenced check-in with selfie and proof uploads</text>
+    <circle cx="984" cy="315" r="3.5" fill="#3B82F6"/>
+    <text x="998" y="320">Manager edit requests need admin approval — nothing is deleted</text>
+    <circle cx="984" cy="345" r="3.5" fill="#3B82F6"/>
+    <text x="998" y="350">Five customizable dashboards, plus analyst-built templates</text>
+  </g>
+
+  <g font-family="Inter, sans-serif" font-size="11" font-weight="600">
+    <rect x="980" y="390" width="52" height="28" rx="14" fill="#EFF6FF" stroke="#3B82F6" stroke-opacity="0.25"/>
+    <text x="1006" y="408" text-anchor="middle" fill="#2563EB">PHP</text>
+    <rect x="1040" y="390" width="68" height="28" rx="14" fill="#EFF6FF" stroke="#3B82F6" stroke-opacity="0.25"/>
+    <text x="1074" y="408" text-anchor="middle" fill="#2563EB">MySQL</text>
+    <rect x="1116" y="390" width="88" height="28" rx="14" fill="#EFF6FF" stroke="#3B82F6" stroke-opacity="0.25"/>
+    <text x="1160" y="408" text-anchor="middle" fill="#2563EB">Chart.js</text>
+  </g>
+
+  <g font-family="Inter, sans-serif" font-size="13" font-weight="600">
+    <rect x="980" y="440" width="175" height="44" rx="12" fill="#3B82F6"/>
+    <text x="1068" y="467" text-anchor="middle" fill="#FFFFFF">View repository →</text>
+    <rect x="1167" y="440" width="145" height="44" rx="12" fill="none" stroke="#3B82F6" stroke-opacity="0.35"/>
+    <text x="1240" y="467" text-anchor="middle" fill="#2563EB">Read the docs</text>
+  </g>
+</svg>

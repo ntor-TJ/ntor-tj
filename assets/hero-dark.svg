@@ -179,7 +179,7 @@
 
     <!-- Status indicator -->
     <g>
-      <circle cx="424" y="329" cx="424" cy="329" r="4" fill="#22C55E" opacity="0">
+      <circle cx="424" cy="329" r="4" fill="#22C55E" opacity="0">
         <animate attributeName="opacity" values="0;0;0" dur="1s" fill="freeze"/>
       </circle>
     </g>
